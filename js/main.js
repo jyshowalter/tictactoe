@@ -9,9 +9,6 @@
 //Change players 
 
 //Resume play until 3 in a row 
-
-//Update to determine winner
-
 const winConditions = [
     [1, 2, 3],
     [4, 5, 6],
@@ -23,5 +20,4 @@ const winConditions = [
     [3, 5, 7]
 ]
 
-let options = ['','','','','','','','','']
-
+//Update to determine winner
