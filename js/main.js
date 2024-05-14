@@ -7,6 +7,16 @@
 //Remove click ability for used box
 
 //Change players 
+let player_one = 1;
+function switchTurns (squares) {
+    if (player_one == 1) {
+        document.querySelector(squares).innerText = 'X';
+        player_one = 0;
+    } else {
+        document.querySelector(squares).innerText = 'O'
+        player_one = 1;
+    }
+}
 
 //Resume play until 3 in a row 
 const winConditions = [
